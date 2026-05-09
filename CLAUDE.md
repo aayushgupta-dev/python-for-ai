@@ -38,6 +38,16 @@ Current state is the bare `uv init` scaffold (`main.py`, `pyproject.toml`, `.pyt
 
 A `docs/` folder is planned for deeper technical notes and cheat sheets (per `README.md`); keep README focused on usage and put long-form explanations in `docs/` when that folder appears.
 
+## Documentation standard
+
+Every new concept introduced in a script gets a corresponding doc in `docs/`. Follow this pattern consistently:
+
+- **Scripts (`scripts/`)** — minimal to no comments. Only add one if something is genuinely non-obvious.
+- **`docs/`** — one markdown file per concept (e.g. `docs/http-requests.md`). Explains the *why*, links to the relevant script, and notes JS parallels where useful.
+- **`README.md`** — stays high-level. Update the docs table under "Documentation" when a new `docs/` file is added.
+
+Never write long comment blocks inside scripts. Put the explanation in `docs/` and keep the code clean.
+
 ## How to assist the user effectively
 
 - The user is **refreshing**, not learning Python from zero. Skip basic preamble; explain the *why* and edge cases. Frame new concepts in relation to ones already covered in earlier lessons of the repo.

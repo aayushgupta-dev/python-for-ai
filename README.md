@@ -25,3 +25,7 @@ This project is broken down into several core milestones:
 
 **Documentation (`docs/` folder):** 
 To keep this README clear, concrete, and strictly focused on how to use this repository, we will be storing more detailed technical notes, deep dives into complex topics, and syntax cheat sheets in a dedicated `docs` folder. Both this README and the `docs` folder will be updated regularly as we cover more topics.
+
+| Doc | Topic |
+|---|---|
+| [`docs/http-requests.md`](docs/http-requests.md) | Making HTTP calls with `requests`; comparison to `fetch`/`axios` in JS |
