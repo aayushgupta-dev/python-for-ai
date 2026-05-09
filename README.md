@@ -33,3 +33,4 @@ To keep this README clear, concrete, and strictly focused on how to use this rep
 | [`docs/variables-and-comments.md`](docs/variables-and-comments.md) | Variables (declaration, naming, mutability) and comments (single-line, multi-line, docstrings) |
 | [`docs/data-types.md`](docs/data-types.md) | Numbers, strings, booleans — behaviour, operators, gotchas, and type conversion |
 | [`docs/operators.md`](docs/operators.md) | Arithmetic, comparison, logical (`and`/`or`/`not`), and assignment shortcut operators |
+| [`docs/string-manipulation.md`](docs/string-manipulation.md) | String methods: case, strip, find, count, replace, startswith, endswith, membership |
