@@ -29,3 +29,4 @@ To keep this README clear, concrete, and strictly focused on how to use this rep
 | Doc | Topic |
 |---|---|
 | [`docs/http-requests.md`](docs/http-requests.md) | Making HTTP calls with `requests`; comparison to `fetch`/`axios` in JS |
+| [`docs/python-syntax-indentation.md`](docs/python-syntax-indentation.md) | Python syntax rules, indentation as block structure, and PEP 8 style guide |
