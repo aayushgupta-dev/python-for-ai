@@ -17,11 +17,13 @@ The companion handbook the course references is at **https://python.datalumina.c
 
 Common commands:
 ```
-uv sync                  # install/sync deps from pyproject.toml + uv.lock
-uv add <pkg>             # add a runtime dependency
-uv add --dev <pkg>       # add a dev dependency
-uv run python main.py    # run a script inside the managed venv
-uv run python -m <mod>   # run a module
+uv sync                          # install/sync deps from pyproject.toml + uv.lock
+uv add <pkg>                     # add a runtime dependency
+uv add --dev <pkg>               # add a dev dependency
+uv run python main.py            # run the root entry point
+uv run python scripts/hello.py   # run the hello script
+uv run python scripts/<file>.py  # run any script under scripts/
+uv run python -m <mod>           # run a module
 ```
 
 ## Repository shape and how it will grow
