@@ -31,3 +31,4 @@ To keep this README clear, concrete, and strictly focused on how to use this rep
 | [`docs/http-requests.md`](docs/http-requests.md) | Making HTTP calls with `requests`; comparison to `fetch`/`axios` in JS |
 | [`docs/python-syntax-indentation.md`](docs/python-syntax-indentation.md) | Python syntax rules, indentation as block structure, and PEP 8 style guide |
 | [`docs/variables-and-comments.md`](docs/variables-and-comments.md) | Variables (declaration, naming, mutability) and comments (single-line, multi-line, docstrings) |
+| [`docs/data-types.md`](docs/data-types.md) | Numbers, strings, booleans — behaviour, operators, gotchas, and type conversion |
